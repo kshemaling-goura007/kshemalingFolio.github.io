@@ -128,9 +128,14 @@ const About = () => {
         </div>
 
         <div className="mt-20">
-          <h3 className="text-3xl font-light text-center text-foreground mb-12">
-            My <span className="text-primary-glow">Skills</span>
-          </h3>
+          <h2 className="text-4xl font-light text-center font-bold mb-13">
+             Technical <span className="text-transparent bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text">
+             Skills
+          </span>
+          </h2>
+       <div className="w-24 h-1 mx-auto bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mt-3 mb-9"></div>
+
+
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {skills.map((skill, index) => (

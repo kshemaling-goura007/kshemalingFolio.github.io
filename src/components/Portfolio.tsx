@@ -7,6 +7,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
 import Chatbot from './Chatbot';
+import Education from './Education';
 
 const Portfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,6 +37,7 @@ const Portfolio = () => {
         <main>
           <Hero />
           <About />
+          <Education />
           <Projects />
           <Contact />
           <Chatbot/>
