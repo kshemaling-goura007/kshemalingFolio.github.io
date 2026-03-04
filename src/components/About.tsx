@@ -88,7 +88,7 @@ const About = () => {
                 <div className="w-full h-full cursor-pointer rounded-full overflow-hidden bg-gradient-secondary">
 
                   <img src="/Images/profileLogo.jpeg" alt="Kshemaling - Full Stack Developer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                  <img src="/Images/profileLogo.jpg" alt="CodeZenith - Full Stack Developer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src="/Images/profileLogo.jpg" alt="Kshemaling - Full Stack Developer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
 
                 </div>
               </div>
@@ -126,7 +126,7 @@ const About = () => {
                 
               </div>
               <div className="glass px-4 py-2 rounded-lg">
-                <span className="text-secondary-glow font-medium">2</span>
+                <span className="text-secondary-glow font-medium">3</span>
                 <span className="text-muted-foreground ml-1">Projects Completed</span>
               </div>
              

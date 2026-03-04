@@ -17,8 +17,8 @@ const Projects = () => {
       description: "A visually engaging portfolio website featuring real-time 3D elements with Spline, fluid animations using GSAP, and a responsive UI built with React and Tailwind CSS.",
       image: "/Images/project-1.png",
       tech: ["React", "JavaScript", "Tailwind CSS"],
-      liveUrl: "",
-      githubUrl: ""
+      liveUrl: "https://checkouthere07.netlify.app/",
+      githubUrl: "https://github.com/kshemaling-goura007/kshemalingFolio.github.io"
     },
     {
       id: 2,
@@ -36,8 +36,8 @@ const Projects = () => {
       description: "A full Stack blog Application with user authentication, CRUD operations for posts and comments, built with Spring Boot for the backend and HTML/CSS and JS for the frontend.",
       image: "/Images/project-3.webp",
       tech: ["Spring Boot", "CSS", "JavaScript", "MySQL", "JAVA", "HTML"],
-      liveUrl: "",
-      githubUrl: "" 
+      liveUrl: "https://bankfrontendurl.netlify.app/",
+      githubUrl: "https://github.com/repos" 
     }
 
   ];
