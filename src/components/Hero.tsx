@@ -118,7 +118,7 @@ const Hero = () => {
           </span>
           {' '}–{' '}
           <br className="hidden md:block" />
-          <span className="text-primary-glow">Full Stack Developement</span>
+          <span className="text-primary-glow">Full Stack Developer</span>
         </h1>
 
         <p ref={subtitleRef} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
