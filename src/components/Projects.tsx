@@ -28,6 +28,7 @@ const Projects = () => {
       tech: ["Spring", "CSS", "React", "MySQL", "JAVA", "HTML"],
       liveUrl: "",
       githubUrl: ""
+
     },
      {
       id: 3,
@@ -36,7 +37,7 @@ const Projects = () => {
       image: "/Images/project-3.webp",
       tech: ["Spring Boot", "CSS", "JavaScript", "MySQL", "JAVA", "HTML"],
       liveUrl: "",
-      githubUrl: ""
+      githubUrl: "" 
     }
 
   ];
@@ -112,10 +113,11 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="glass cursor-pointer rounded-xl overflow-hidden hover:shadow-glow-primary transition-all duration-500 group">
-              <div className="relative overflow-hidden h-46">
+
+              <div className="relative overflow-hidden h-48">
                 <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
- 
+
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a href={project.liveUrl} className="w-10 h-10 bg-primary/90 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-primary transition-colors duration-200">
                     <Globe size={18} className="text-primary-foreground" />

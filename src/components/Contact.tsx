@@ -182,7 +182,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/kshemaling-goura/" className="w-12 h-12 bg-gradient-secondary rounded-lg flex items-center justify-center hover:shadow-glow-secondary transition-all duration-300 hover:scale-110">
                   <LinkedinLogo size={20} className="text-secondary-foreground" />
                 </a>
-                 <a href="https://www.instagram.com/kshem_007_/" className="w-12 h-12 bg-gradient-secondary rounded-lg flex items-center justify-center hover:shadow-glow-secondary transition-all duration-300 hover:scale-110">
+                 <a href="https://www.instagram.com/kshem_007_/?hl=en" className="w-12 h-12 bg-gradient-secondary rounded-lg flex items-center justify-center hover:shadow-glow-secondary transition-all duration-300 hover:scale-110">
                   <InstagramLogo size={20} className="text-secondary-foreground" />
                 </a>
               </div>

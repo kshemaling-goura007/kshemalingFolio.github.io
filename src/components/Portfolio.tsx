@@ -9,6 +9,7 @@ import Footer from './Footer';
 import Chatbot from './Chatbot';
 import Education from './Education';
 
+
 const Portfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
 

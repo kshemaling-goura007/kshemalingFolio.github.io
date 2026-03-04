@@ -14,6 +14,7 @@ const About = () => {
 
   const skills = [
     { icon: Coffee, name: 'Java', level: 90 },
+    { icon: Coffee, name: 'Java', level: 91 },
     { icon: Rocket, name: 'JDBC', level: 85 },
     { icon: Server, name: 'Servlets', level: 87 },
      { icon: Leaf, name: 'Spring', level: 80 },
@@ -85,7 +86,10 @@ const About = () => {
 
               <div className="relative w-full h-full glass rounded-full p-2 hover:shadow-glow-primary transition-all duration-500 group">
                 <div className="w-full h-full cursor-pointer rounded-full overflow-hidden bg-gradient-secondary">
+
                   <img src="/Images/profileLogo.jpeg" alt="Kshemaling - Full Stack Developer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src="/Images/profileLogo.jpg" alt="CodeZenith - Full Stack Developer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+
                 </div>
               </div>
 
@@ -110,7 +114,10 @@ const About = () => {
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
+
               My skill set spans both frontend and backend development, with a strong focus on clean code, smooth user experiences, and animation-driven UI. I'm passionate about solving real-world problems with practical, efficient, and user-centered solutions.
+
+              My skill set spans both frontend and backend development, with a strong focus on clean code, smooth user experiences, and animation-driven UI using libraries like Framer Motion. I'm passionate about solving real-world problems with practical, efficient, and user-centered solutions.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
